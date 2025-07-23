@@ -43,7 +43,7 @@ cd ~/Tic-Tac-Toe-Game
 chmod +x build_and_install.sh
 ./build_and_install.sh
 ```
-
+---
 ### Notes
 
     Ensure music and image files exist in the correct project folders (Music/ and Images/).
