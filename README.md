@@ -33,16 +33,14 @@ sudo pacman -S base-devel cmake qt6-base qt6-multimedia
 
 ### Build and Run
 
-    Open terminal and navigate to the project directory:
-
 ```bash
+git clone https://github.com/HaiderBassem/Tic-Tac-Toe-Game.git
 cd ~/Tic-Tac-Toe-Game 
-
 chmod +x build_and_install.sh
 ./build_and_install.sh
 ```
 
-Notes
+### Notes
 
     Ensure music and image files exist in the correct project folders (Music/ and Images/).
 
