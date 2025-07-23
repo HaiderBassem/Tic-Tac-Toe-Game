@@ -18,36 +18,29 @@ To build and run the project on most Linux distributions, you need:
 ```bash
 sudo apt update
 sudo apt install build-essential cmake qt6-base-dev qt6-multimedia-dev libqt6multimedia6 qt6-multimedia-plugins
+```
 
 ### On Fedora:
-
+```bash
 sudo dnf install gcc-c++ cmake qt6-qtbase-devel qt6-qtmultimedia-devel
+```
 
 ### On Arch Linux:
 
+```bash
 sudo pacman -S base-devel cmake qt6-base qt6-multimedia
+```
 
 ### Build and Run
 
     Open terminal and navigate to the project directory:
 
+```bash
 cd ~/Tic-Tac-Toe-Game 
 
-    Create and enter the build directory:
-
-mkdir -p build && cd build
-
-    Run CMake to configure the build files:
-
-cmake ..
-
-    Build the project with make:
-
-make -j$(nproc)
-
-    Run the application:
-
-./Tic-Tac-Toe-Game
+chmod +x build_and_install.sh
+./build_and_install.sh
+```
 
 Notes
 
