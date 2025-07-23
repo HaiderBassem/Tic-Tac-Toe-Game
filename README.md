@@ -1,4 +1,4 @@
-# X-OGame
+# Tic Tac Toe Game 
 
 A Tic-Tac-Toe game built with Qt 6, featuring a GUI and background music.
 
